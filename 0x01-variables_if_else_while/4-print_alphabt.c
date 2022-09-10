@@ -6,7 +6,7 @@
  *
  * Description: Returns the alphabets except q and e
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 
 	while (num <= 'Z')
 	{
-		if (num != 'Q' || num != 'E')
+		if (num != 'q' || num != 'e')
 		{
 			putchar(tolower(num));
 		}
