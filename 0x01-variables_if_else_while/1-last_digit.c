@@ -37,7 +37,7 @@ int main(void)
 		}
 		else
 		{
-			if(i((n % 10) < 6) && ((n % 10) > 0))
+			if(((n % 10) < 6) && ((n % 10) > 0))
 			{
 				printf("is %d and is less than 6 and not 0", n);
 			}
