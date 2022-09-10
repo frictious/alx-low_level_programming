@@ -11,11 +11,9 @@
  * main - Returns 0
  *
  * Description: The program generate random numbers,
- * check if it's greater than 5, equal to 0,
- * or less than 6.
+ * and check it
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
