@@ -8,11 +8,9 @@
 /* betty style doc for function main goes there */
 /* Main entry point Description: the program will check if a number entered */
 int main(void)
-/** 
- * main - Entry point 
- *
+/**
+ * main - Entry point
  * Description: 'the program's description'
- * 
  * Return: Always 0 (Success)
 */
 {
