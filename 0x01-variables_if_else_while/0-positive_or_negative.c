@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-/* Main entry point Description: 'the program will check if a number entered' */
+/* Main entry point Description: the program will check if a number entered */
 int main(void)
 {
 	int n;
