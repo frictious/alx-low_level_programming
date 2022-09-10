@@ -6,6 +6,14 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
+/*
+ *
+ * main - Entry point
+ * Description: 'the program will check if a number entered is positve, negative, or zero'
+ * Return: Always 0 (Success)
+ *
+ * 
+ */
 int main(void)
 {
 	int n;
