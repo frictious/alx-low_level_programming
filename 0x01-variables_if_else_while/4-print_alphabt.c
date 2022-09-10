@@ -12,14 +12,22 @@
 int main(void)
 {
 	int num = 'A';
+	int count = 1;
 
 	while (num <= 'Z')
 	{
-		if ((num != 'Q') || (num != 'E'))
+		if ((count == 5) || (count == 17))
+		{
+			count++;
+			num++;
+			break;
+		}
+		else
 		{
 			putchar(tolower(num));
 		}
 
+		count++;
 		num++;
 	}
 
