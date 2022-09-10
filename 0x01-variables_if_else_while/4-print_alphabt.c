@@ -15,7 +15,7 @@ int main(void)
 
 	while (num <= 'Z')
 	{
-		if (num != 'q' || num != 'e')
+		if ((num != 081) || (num != 069))
 		{
 			putchar(tolower(num));
 		}
