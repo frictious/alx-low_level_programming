@@ -20,7 +20,7 @@ int main(void)
 		{
 			count++;
 			num++;
-			break;
+			continue;
 		}
 		else
 		{
