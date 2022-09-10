@@ -11,7 +11,7 @@
  * main - Returns 0
  *
  * Description: The program generate random numbers,
- * check if they are greater than 5, equal to 0,
+ * check if it's greater than 5, equal to 0,
  * or less than 6.
  *
  * Return: Always 0 (Success)
