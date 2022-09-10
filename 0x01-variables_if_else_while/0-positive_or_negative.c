@@ -10,7 +10,7 @@
  * Main entry point
  *
  * Description: the program will check if the number
- * generated is positive, negative, or zero
+ * that is randomly generated is positive, negative, or zero
  *
  * Return: Always 0 (Success)
  */
