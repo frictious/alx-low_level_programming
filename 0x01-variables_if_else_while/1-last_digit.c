@@ -10,9 +10,9 @@
 /**
  * main - Returns 0
  *
- * Description: The program will generate random numbers
- * and check if they are greater than 5, equal to 0,
- * and less than 6 but not 0 and prints them
+ * Description: The program generate random numbers,
+ * check if they are greater than 5, equal to 0,
+ * or less than 6.
  *
  * Return: Always 0 (Success)
  *
