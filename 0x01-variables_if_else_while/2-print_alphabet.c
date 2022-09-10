@@ -9,7 +9,6 @@
  * Return: Always 0 (Success)
  * 
  */
-
 int main(void)
 {
 
@@ -20,8 +19,9 @@ int main(void)
 		putchar(tolower(num));
 		num++;
 	}
+	putchar('\n');
 
-	return 0;
+	return (0);
 
 }
 
