@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * main - Returns 0
  *
@@ -14,7 +14,7 @@ int main(void)
 	num = 0;
 	while (num < 10)
 	{
-		putchar(num);
+		putchar(tolower(num));
 		num++;
 	}
 
