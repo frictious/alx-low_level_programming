@@ -14,7 +14,7 @@ int main(void)
 	num = 0;
 	while (num < 10)
 	{
-		putchar(tolower(num));
+		putchar('%d', num);
 		num++;
 	}
 
