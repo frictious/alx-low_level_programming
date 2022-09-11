@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - Returns 0
@@ -10,15 +11,23 @@
 int main(void)
 {
 	int num = 0;
+	int alph = 'A';
 
 	while (num < 16)
 	{
-		putchar(num + '0');
+		if (num < 10)
+		{
+			putchar(num + '0');
+		}
+		else
+		{
+			putchar(tolower(alph));
+			alph++;
+		}
 		num++;
 	}
-	
 	putchar('\n');
-
 	return (0);
+
 }
 
