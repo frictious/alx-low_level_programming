@@ -1,33 +1,24 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
+
+
 /**
- * main - entry point
  *
- * Description - Prints the alphabets in lower case
+ *  * main - check the code
  *
- * Return: Always 0 (Success)
- */
-void print_alphabet(void);
+ *   *
+ *
+ *    * Return: Always 0.
+ *
+ *     */
 
 int main(void)
+
 {
-	print_alphabet();
-	return (0);
-}
 
-/*Print alphabet function declaration*/
-void print_alphabet(void)
-{
-	int num = 'A';
+	    print_alphabet();
 
-	while (num <= 'Z')
-	{
-		putchar(tolower(num));
-		num++;
-	}
+	        return (0);
 
-	putchar('\n');
 }
 
