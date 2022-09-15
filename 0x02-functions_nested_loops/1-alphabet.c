@@ -6,10 +6,14 @@ void print_alphabet_x10(void);
 #include "main.h"
 
 /*Print alphabet function declaration*/
-/**
- *  Description: Printing the alphabets in lowercase
- */
 
+/**
+ * print_alphabet - Returns void
+ * 
+ * Description: Printing the alphabets in lowercase
+ *
+ * Return: Returns void
+ */
 void print_alphabet(void)
 {
 	int num = 'A';
