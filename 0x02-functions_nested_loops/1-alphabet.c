@@ -9,7 +9,7 @@ void print_alphabet_x10(void);
 
 /**
  * print_alphabet - Returns void
- * 
+ *
  * Description: Printing the alphabets in lowercase
  *
  * Return: Returns void
