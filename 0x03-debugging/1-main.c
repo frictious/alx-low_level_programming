@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
  *
  * * main - causes an infinite loop
@@ -10,10 +8,7 @@
  *
  * */
 
-
-
 int main(void)
-
 {
 
 	int i;
@@ -31,4 +26,3 @@ int main(void)
 
 	 return (0);
 }
-
